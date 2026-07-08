@@ -1,0 +1,102 @@
+h1{
+    color: rgb(150, 14, 14);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-decoration: overline;
+  
+}
+
+header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.ul{
+    display: flex;
+    list-style: none;
+}
+
+nav.li{
+    margin-right: 20px;
+}
+
+h2{
+    color: rgb(150, 14, 14);
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: overline;
+}
+
+
+.card{
+    background-color: #c27777;
+    width: 150px; height: 200px;
+    border: 5px solid rgb(150, 14, 14);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.card2 {
+    width: 300px;
+    background: linear-gradient(135deg, #7a0000, #b71c1c);
+    color:rgb(255, 187, 187);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.card2 h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.card2 p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card2 button {
+    background-color: #ff5252;
+    color: rgb(255, 187, 187);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card2 button:hover {
+    background-color: #ff1744;
+    transform: translateY(-2px);
+}
+
+.contenedor_padre{
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around ;
+}
+
+@media screen and (max-width:700px){
+    header{
+        flex-direction: column;
+        align-items:flex-start ;
+    }
+    nav.ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    }
+
+}
